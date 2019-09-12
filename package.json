@@ -1,6 +1,6 @@
 {
-  "name": "inquery-monitor",
-  "version": "1.0.0",
+  "name": "inquery-monitor-local",
+  "version": "1.0.1",
   "description": "",
   "main": "src/main.js",
   "bin": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --mode development",
-    "dev": "webpack --mode development & goblin monitor",
+    "dev": "webpack --mode development & inquery monitor",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -24,7 +24,6 @@
     "commander": "^3.0.0",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
-    "nodemon": "^1.19.1",
     "performance-now": "^2.1.0",
     "react": "^16.9.0",
     "react-chartjs-2": "^2.7.6",
